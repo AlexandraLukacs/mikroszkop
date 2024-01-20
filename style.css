@@ -70,13 +70,15 @@ article img {
     max-width: 100%;
 }
 
-article caption {
-    background-color: #1f7a7a;
-}
-
 article section .mellett {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+section {
+    border-left: 2px #1f7a7a dotted;
+    border-right: 2px #1f7a7a dotted;    
+    padding: 0px 10px 0px 10px;
 }
 
 @media screen and (max-width: 720px) {
